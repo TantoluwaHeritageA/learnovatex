@@ -1,7 +1,10 @@
 @media (max-width: 420px) {
+  html {
+  }
   * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
   .main_container_color {
     background-size: cover;
@@ -57,11 +60,11 @@
     font-size: 0.9rem;
   }
   #nav-icon {
-    margin: 0 1rem 1rem 0;
+    margin: 0 0 0.7rem 0;
     position: relative;
     z-index: 4;
     margin-top: 20px;
-    width: 35px;
+    width: 50px;
     height: fit-content;
     cursor: pointer;
   }
@@ -69,7 +72,7 @@
     border-radius: 2px;
     height: 3px;
     width: 35px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     background-color: #ffffff;
     transition-duration: 300ms;
   }
@@ -79,7 +82,7 @@ nth-child() is a pseudo class matches elements based on their position in a grou
     margin-bottom: 0;
   }
   .open #nav-icon div:nth-child(1) {
-    transform: rotateZ(-45deg) translateX(-17px) translateY(10px);
+    transform: rotateZ(-45deg) translateX(-13px) translateY(4px);
     color: #ffffff;
   }
   .open #nav-icon div:nth-child(2) {
@@ -97,6 +100,8 @@ nth-child() is a pseudo class matches elements based on their position in a grou
     border: 1px solid #fff;
     color: #fff;
     font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
   }
   main {
   }
