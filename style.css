@@ -30,10 +30,10 @@ header {
   /* background: #25274D; */
   margin: 0 auto 44px auto;
 }
-.main_logo {
+.main_logo img {
   /* max-width: 100%; */
   width: 21.25rem;
-  height: 5.13rem;
+  /* height: 5.13rem; */
 }
 .nav_bar {
   display: flex;
@@ -105,11 +105,7 @@ main .contents_flex h2 {
   flex-direction: column;
   gap: 36px;
 }
-.back-image img {
-  max-width: 100%;
-  width: 500px;
-  margin: 10px;
-}
+
 .main_side_image img {
   max-width: 100%;
   width: 600px;
@@ -133,18 +129,14 @@ main .contents_flex h2 {
   background: #1e1f3c;
   text-align: center;
 }
-.learn :hover {
-  background: #fff;
-}
+
 .button_flex_container .starting {
   background: transparent;
   border: 2px solid white;
   border-radius: 5px;
   text-align: center;
 }
-.starting :hover {
-  background: #fff;
-}
+
 section {
   margin-top: 100px;
 
@@ -336,6 +328,7 @@ input {
   font-size: 1rem;
   padding: 13px;
   margin: 6px;
+  font-weight: 600;
   text-align: left;
 }
 .big_cc {
@@ -370,7 +363,7 @@ footer ul {
   color: #ffffffb2;
   /* line-height: 2.1; */
   text-align: center;
-  margin: 88px 0 20px 0;
+  margin: 78px 0 5px 0;
 }
 footer li {
   list-style: none;
