@@ -64,6 +64,7 @@ header {
   position: relative;
   bottom: 10px;
 }
+
 .nav_button {
   /* margin-top: -20px; */
   font-weight: 600;
@@ -132,11 +133,17 @@ main .contents_flex h2 {
   background: #1e1f3c;
   text-align: center;
 }
+.learn :hover {
+  background: #fff;
+}
 .button_flex_container .starting {
   background: transparent;
   border: 2px solid white;
   border-radius: 5px;
   text-align: center;
+}
+.starting :hover {
+  background: #fff;
 }
 section {
   margin-top: 100px;
@@ -287,10 +294,7 @@ input {
   padding: 13px;
   color: #000000;
 }
-.click_button {
-  position: relative;
-  top: 15px;
-}
+
 .message {
   width: 15rem;
   height: 3.69rem;
@@ -299,9 +303,9 @@ input {
   color: #fff;
   font-size: 1.25rem;
 }
-.section_faq {
-  margin: 100px auto;
-}
+/* .section_faq {
+  margin: 100px auto 0 auto;
+} */
 .section_faq h2 {
   font-size: 3rem;
   font-weight: 700;

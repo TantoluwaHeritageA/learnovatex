@@ -13,7 +13,7 @@
   .container {
     max-width: 375px;
     margin: 0 auto;
-    padding: 0 8px;
+    padding: 8px;
   }
 
   header {
@@ -25,7 +25,7 @@
   }
   .main_logo img {
     max-width: 100%;
-    margin: 10px;
+    /* margin: 10px; */
   }
   .nav_bar .nav_list {
     /* padding-top: 80px; */
@@ -40,7 +40,8 @@
     min-height: 52vh;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
+    justify-content: center;
     overflow: hidden;
     transition-duration: 300ms;
     transform: translateX(-100%);
@@ -151,11 +152,12 @@ nth-child() is a pseudo class matches elements based on their position in a grou
   }
   section {
     /* margin-top: 100px auto 0 auto; */
+    margin: 50px auto 0 auto;
     text-align: center;
+    padding: 0 5px;
   }
   .section_why,
   .section_what {
-    padding: 0 5px;
   }
   section .main_info {
     display: flex;
@@ -173,7 +175,9 @@ nth-child() is a pseudo class matches elements based on their position in a grou
     font-size: 0.8rem;
   }
   .sub_content_one h2,
-  .section_offer h2 {
+  .section_offer h2,
+  .section_faq h2,
+  footer h2 {
     font-size: 1.5rem;
   }
   .sub_content_one h4 {
@@ -262,11 +266,53 @@ nth-child() is a pseudo class matches elements based on their position in a grou
     height: 5rem;
   }
   .message {
-    width: 10rem;
-    height: 1.69rem;
+    width: 8rem;
+    height: 2.3rem;
     background: #25274d;
     border: none;
     color: #fff;
-    font-size: 0.95rem;
+    font-size: 0.7rem;
+  }
+  .faq_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px;
+    /* margin-left: 50px; */
+  }
+  .small_cc,
+  .big_cc {
+    display: none;
+  }
+  .ct_text {
+    width: 17rem;
+    height: 1rem;
+    font-weight: 600;
+    background: #f3f3f3;
+    color: #25274dc4;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    column-count: 2;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    justify-content: center;
+    color: #ffffffb2;
+    /* line-height: 2.1; */
+    text-align: center;
+    margin: 44px 0 10px 0;
+  }
+  footer p,
+  footer .copyright {
+    font-size: 0.8rem;
   }
 }
